@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 웹 페이지 예제</title>
+    <style>
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: 380px;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ddd;
+            color:black;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color:black;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* 스마트폰과 같은 작은 화면에 대한 스타일링 */
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="disney_main.jpg"> <h2>Welcome to the Disney World ! </h2>
+        
+    </header>
+
+    <nav>
+        <a href="#">Magic Kingdom</a>
+        <a href="#">Hollywood Studios</a>
+        <a href="#">EPCOT</a>
+        <a href="#">Animal Kingdom</a>
+    </nav>
+
+    <section>
+        <h2>콘텐츠 영역</h2>
+        <p>이곳에 웹 페이지의 콘텐츠를 추가하세요.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 즈니즈니</p>
+    </footer>
+
+</body>
+</html>

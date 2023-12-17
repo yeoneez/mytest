@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./q01.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+    <legend><h2>개인 정보 입력</h2></legend>
+        <p>아 이 디: <input type="text" name="ID"> <button>ID중복검사</button></p>
+        <p>생 년 월 일: <input type="number" placeholder="연도-월-일"> </p>
+        <p>성 별: <input type="radio" name="sex" value="male">남성
+            <input type="radio" name="sex" value="female">여성</p>
+        <p>E-mail: <input type="text" name="e-mail"> </p>
+        <p>메일수신: <input type="radio" name="mail" value="agree">수신동의
+            <input type="radio" name="mail" value="disagree">수신거부 </p>
+        <p>핸드폰: <select name="cell phone number">
+                    <option value="1" selected>010</option>
+                    <option value="2">011</option> 
+                    </select>
+                    <span>-</span> 
+                    <input type="number"> - <input type="number">
+                   </p>
+        <p>직업: <select name="job">
+                    <option value="1" selected>학생</option>>
+                    <option value="2">회사원</option>
+                 </select></p>
+        <p>취미: <input type="checkbox" name="shopping" value="shopping">쇼핑
+             <input type="checkbox" name="internet" value="internet">인터넷
+             <input type="checkbox" name="music" value="music">음악감상
+             <input type="checkbox" name="reading" value="reading">독서
+             <input type="checkbox" name="sports" value="sports">스포츠 </p>
+        
+            <div class="intro">
+                <span>자기소개 :</span> 
+                <input type="text" style="width: 400px; height: 200px;">
+            </div>    
+    </fieldset>
+</form>
+        <p></p>
+        <input type="submit" value="등록"> <input type="reset" value="초기화">
+</body>
+</html>
